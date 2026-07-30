@@ -45,6 +45,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 20px;
 }
@@ -52,6 +53,9 @@ textarea {
 .topbar-actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  flex: 1 1 520px;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -563,6 +567,17 @@ form {
 
   .workspace {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1320px) {
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .topbar-actions {
+    flex-basis: 100%;
+    justify-content: flex-start;
   }
 }
 
