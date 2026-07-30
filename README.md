@@ -61,6 +61,12 @@ python -m http.server 8765
 
 ## GitHub Sharing
 
+Live site:
+
+```txt
+https://bookergg.github.io/job-hunt-tracker/
+```
+
 Public repository:
 
 ```txt
