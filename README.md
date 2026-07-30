@@ -15,7 +15,7 @@ Build a focused dashboard that helps a job seeker see where every application st
 - Applications can be created, edited, and deleted during the session.
 - Applications are saved locally in the browser.
 - Table and board views are available for scanning the pipeline.
-- Jobs that are no longer pursuable can be moved to an archive and restored later.
+- Rejected or withdrawn jobs that are no longer pursuable can be moved to an archive and restored later.
 - Filtered listings can be exported to a PDF report.
 - Sample data can be restored from the UI.
 - All listings can be deleted at once to start a blank tracker.
@@ -28,7 +28,7 @@ Build a focused dashboard that helps a job seeker see where every application st
 - Search by company, role, location, contact, or source.
 - Add a new application during the session.
 - Edit or delete existing applications.
-- Archive unpursuable jobs outside the active tracker.
+- Archive rejected or withdrawn jobs outside the active tracker.
 - Restore archived jobs if they become relevant again.
 - Save tracker changes in browser-local storage.
 - Reset the tracker to the original sample data.
